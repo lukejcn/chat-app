@@ -8,7 +8,7 @@ const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
 
-const port = process.env.PORT || 3004
+const port = process.env.PORT || 3402
 const publicDirectoryPath = path.join(__dirname, '../public')
 
 const { generateMessage, generateLocationMessage } = require('./utils/messages')
